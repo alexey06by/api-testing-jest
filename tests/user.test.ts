@@ -73,11 +73,5 @@ describe.only("Petstore API: check user", ()=>{
         .delete(endpoints.user.deleteUser(testUser.toBeDeleted.username));
 
         expect(res.statusCode).toBe(200);
-
-        // const resDeletedUser = await api
-        // .get(endpoints.user.getUserByUserName(testUser.toBeDeleted.username));
-
-        // expect(resDeletedUser.statusCode).toBe(404);
-        // expect(resDeletedUser.body).toEqual(expect.objectContaining(testUser.notFoundError));
     });    
 });
