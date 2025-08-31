@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/Alexey06by/api-testing-jest/issues"
   },
-  "homepage": "https://github.com/Alexey06by/api-testing-jest#readme"
+  "homepage": "https://github.com/Alexey06by/api-testing-jest#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "dotenv": "^17.0.0",
+    "jest": "^30.0.3",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "supertest": "^7.1.1"
+  }
 }
